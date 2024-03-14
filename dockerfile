@@ -18,4 +18,4 @@ COPY .env ./.env
 
 
 # Command to run the application
-ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "chat_with_site.py", "--server.port=8080", "--server.address=0.0.0.0"]
