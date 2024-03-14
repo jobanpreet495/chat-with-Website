@@ -7,7 +7,6 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . .
 
-RUN git clone https://github.com/jobanpreet495/chat-with-Website.git .
 
 # Install dependencies
 RUN pip3 install -r requirements.txt
